@@ -48,12 +48,16 @@
         "role": "General Secretary",
         "name": "Rounak Roy",
         "photo": "assets/union/rounak.jpg",
+        "instagram": "rounak.abvp",
+        "instagramUrl": "https://www.instagram.com/rounak.abvp/",
         "phone": "9560660215"
       },
       {
         "role": "Joint Secretary",
         "name": "Samriddhi Tripathi",
         "photo": "assets/union/samriddhi.jpg",
+        "instagram": "samriddhi.abvp",
+        "instagramUrl": "https://www.instagram.com/samriddhi.abvp/",
         "phone": "8815333404"
       },
       {
@@ -117,11 +121,15 @@
       },
       {
         "name": "Rounak Roy",
-        "phone": "9560660215"
+        "phone": "9560660215",
+        "instagram": "rounak.abvp",
+        "instagramUrl": "https://www.instagram.com/rounak.abvp/"
       },
       {
         "name": "Samriddhi Tripathi",
-        "phone": "8815333404"
+        "phone": "8815333404",
+        "instagram": "samriddhi.abvp",
+        "instagramUrl": "https://www.instagram.com/samriddhi.abvp/"
       },
       {
         "name": "Rupanshu Raj Mahawar",
