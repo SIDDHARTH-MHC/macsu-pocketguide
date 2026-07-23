@@ -400,7 +400,9 @@ function renderUnion(d) {
       const ig = m.instagramUrl
         ? igLink(m.instagram, m.instagramUrl, `Follow @${m.instagram}`)
         : "";
-      const phone = m.phone ? `<a class="tap" href="${telHref(m.phone)}">${esc(fmtPhone(m.phone))}</a>` : "";
+      const phone = m.phone
+        ? `<button type="button" class="tap tap-phone" data-phone="${esc(m.phone)}" data-name="${esc(m.name)}">${esc(fmtPhone(m.phone))}</button>`
+        : "";
       return `
       <article class="union-card">
         ${photo}
@@ -805,7 +807,7 @@ async function sharePage() {
 }
 
 async function init() {
-  const res = await fetch("data/guide.json?v=9", { cache: "no-store" });
+  const res = await fetch("data/guide.json?v=11", { cache: "no-store" });
   DATA = await res.json();
   INDEX = buildIndex(DATA);
 

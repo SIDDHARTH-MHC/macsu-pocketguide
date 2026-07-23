@@ -33,24 +33,28 @@
         "name": "Parvinder Deswal",
         "photo": "assets/union/parvinder.jpg",
         "instagram": "parvinder.abvp",
-        "instagramUrl": "https://www.instagram.com/parvinder.abvp/"
+        "instagramUrl": "https://www.instagram.com/parvinder.abvp/",
+        "phone": "9950435959"
       },
       {
         "role": "Vice President",
         "name": "Garima Singh Chauhan",
         "photo": "assets/union/garima.jpg",
         "instagram": "garima.abvp",
-        "instagramUrl": "https://www.instagram.com/garima.abvp/"
+        "instagramUrl": "https://www.instagram.com/garima.abvp/",
+        "phone": "7355259317"
       },
       {
         "role": "General Secretary",
         "name": "Rounak Roy",
-        "photo": "assets/union/rounak.jpg"
+        "photo": "assets/union/rounak.jpg",
+        "phone": "9560660215"
       },
       {
         "role": "Joint Secretary",
         "name": "Samriddhi Tripathi",
-        "photo": "assets/union/samriddhi.jpg"
+        "photo": "assets/union/samriddhi.jpg",
+        "phone": "8815333404"
       },
       {
         "role": "Women Development Secretary",
@@ -59,6 +63,10 @@
         "instagram": "yachita.abvp",
         "instagramUrl": "https://www.instagram.com/yachita.abvp/",
         "phone": "9086325818"
+      },
+      {
+        "role": "Secretary of Social Welfare",
+        "name": "Chetali"
       }
     ],
     "teamPhoto": "assets/union/team.jpg",
@@ -96,6 +104,30 @@
         "instagramUrl": "https://www.instagram.com/yachita.abvp/"
       },
       {
+        "name": "Parvinder Deswal",
+        "phone": "9950435959",
+        "instagram": "parvinder.abvp",
+        "instagramUrl": "https://www.instagram.com/parvinder.abvp/",
+        "note": "President"
+      },
+      {
+        "name": "Garima Singh Chauhan",
+        "phone": "7355259317",
+        "instagram": "garima.abvp",
+        "instagramUrl": "https://www.instagram.com/garima.abvp/",
+        "note": "Vice President"
+      },
+      {
+        "name": "Rounak Roy",
+        "phone": "9560660215",
+        "note": "General Secretary"
+      },
+      {
+        "name": "Samriddhi Tripathi",
+        "phone": "8815333404",
+        "note": "Joint Secretary"
+      },
+      {
         "name": "Rupanshu Raj Mahawar",
         "phone": "8076202061",
         "instagram": "rupanshuraj.abvp",
@@ -105,15 +137,13 @@
         "name": "Krishna Nayak",
         "phone": "6396982898",
         "instagram": "__krishna.abvp",
-        "instagramUrl": "https://www.instagram.com/__krishna.abvp/",
-        "note": "Super Senior (Passout)"
+        "instagramUrl": "https://www.instagram.com/__krishna.abvp/"
       },
       {
         "name": "Siddharth Mahajan",
         "phone": "8923944033",
         "instagram": "_siddharthagupta",
-        "instagramUrl": "https://www.instagram.com/_siddharthagupta/",
-        "note": "Super Senior (Passout)"
+        "instagramUrl": "https://www.instagram.com/_siddharthagupta/"
       }
     ]
   },
