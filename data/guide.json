@@ -459,6 +459,58 @@
     ],
     "fallback": "Maintenance register at Counter No. 1. Unresolved issues: mac_su@mac.du.ac.in or gcr_mac@mac.du.ac.in. Full list: mac.du.ac.in/college-comittee.aspx"
   },
+  "gallery": [
+    {
+      "src": "assets/gallery/campus-01.jpg",
+      "thumb": "assets/gallery/thumbs/campus-01.jpg",
+      "alt": "Students in a seminar meeting room on campus"
+    },
+    {
+      "src": "assets/gallery/campus-02.jpg",
+      "thumb": "assets/gallery/thumbs/campus-02.jpg",
+      "alt": "Classroom society event at Maharaja Agrasen College"
+    },
+    {
+      "src": "assets/gallery/campus-03.jpg",
+      "thumb": "assets/gallery/thumbs/campus-03.jpg",
+      "alt": "Campus courtyard with green lawn"
+    },
+    {
+      "src": "assets/gallery/campus-04.jpg",
+      "thumb": "assets/gallery/thumbs/campus-04.jpg",
+      "alt": "Packed auditorium during a college event"
+    },
+    {
+      "src": "assets/gallery/campus-05.jpg",
+      "thumb": "assets/gallery/thumbs/campus-05.jpg",
+      "alt": "Main building lobby with staircases"
+    },
+    {
+      "src": "assets/gallery/campus-06.jpg",
+      "thumb": "assets/gallery/thumbs/campus-06.jpg",
+      "alt": "Maharaja Agrasen statue on campus"
+    },
+    {
+      "src": "assets/gallery/campus-07.jpg",
+      "thumb": "assets/gallery/thumbs/campus-07.jpg",
+      "alt": "Campus building across the lawn"
+    },
+    {
+      "src": "assets/gallery/campus-08.jpg",
+      "thumb": "assets/gallery/thumbs/campus-08.jpg",
+      "alt": "Students on the college ground in the evening"
+    },
+    {
+      "src": "assets/gallery/campus-09.jpg",
+      "thumb": "assets/gallery/thumbs/campus-09.jpg",
+      "alt": "Audience in the college auditorium"
+    },
+    {
+      "src": "assets/gallery/campus-10.jpg",
+      "thumb": "assets/gallery/thumbs/campus-10.jpg",
+      "alt": "Front facade of Maharaja Agrasen College"
+    }
+  ],
   "emergency": [
     { "label": "Main college complaint ID (Principal)", "phone": "", "email": "principal@mac.du.ac.in" },
     { "label": "Police / Emergency", "phone": "112" },

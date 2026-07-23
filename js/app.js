@@ -80,6 +80,7 @@ function homeIcon(kind) {
     fest: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 19h14M7 19V9l5-4 5 4v10"/><path d="M10 19v-5h4v5"/></svg>`,
     fees: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="6" width="16" height="12" rx="1.5"/><path d="M4 10h16M8 14h3"/></svg>`,
     map: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 4.5l6-1.5 5 2v14.5l-5-2-6 1.5-5-2V5z"/><path d="M9 4.5v14.5M15 3v14.5"/></svg>`,
+    gallery: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3.5" y="5" width="17" height="14" rx="1.5"/><circle cx="9" cy="10.5" r="1.8"/><path d="M3.5 16.5l4.5-4 3.5 3 3-2.5 6 3.5"/></svg>`,
   };
   return icons[kind] || icons.home;
 }
@@ -157,6 +158,7 @@ function renderHome(d) {
     { href: "#/academics", icon: "book", title: "Academics", sub: "NEP + Fees" },
     { href: "#/union", icon: "union", title: "Student Union", sub: "Who we are" },
     { href: "#/help", icon: "help", title: "Help & Safety", sub: "Helplines" },
+    { href: "#/gallery", icon: "gallery", title: "Gallery", sub: "Campus photos" },
     { href: "#/union", icon: "fest", title: "Yuvaan", sub: "College fest" },
   ]
     .map(
@@ -575,6 +577,77 @@ function renderHelp(d) {
     </p>`;
 }
 
+function renderGallery(d) {
+  const photos = d.gallery || [];
+  const items = photos
+    .map(
+      (p, i) => `
+      <button type="button" class="gallery-item" data-gallery-index="${i}" aria-label="${esc(p.alt || `Campus photo ${i + 1}`)}">
+        <img
+          src="${esc(p.thumb || p.src)}"
+          alt="${esc(p.alt || "Campus photo")}"
+          width="400"
+          height="300"
+          loading="lazy"
+          decoding="async"
+        />
+      </button>`
+    )
+    .join("");
+
+  return `
+    <header class="page-head">
+      <h1>Gallery</h1>
+      <p>A quick look at MAC campus life. Tap a photo to open it.</p>
+    </header>
+    <div class="gallery-grid">${items}</div>`;
+}
+
+function openGalleryLightbox(index) {
+  closeGalleryLightbox();
+  const photos = DATA?.gallery || [];
+  if (!photos.length) return;
+  let i = ((index % photos.length) + photos.length) % photos.length;
+  const overlay = document.createElement("div");
+  overlay.className = "gallery-overlay";
+  overlay.id = "gallery-lightbox";
+  overlay.innerHTML = `
+    <div class="gallery-lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+      <button type="button" class="gallery-close" id="gallery-close" aria-label="Close">×</button>
+      <button type="button" class="gallery-nav gallery-prev" id="gallery-prev" aria-label="Previous">‹</button>
+      <img id="gallery-full" src="${esc(photos[i].src)}" alt="${esc(photos[i].alt || "Campus photo")}" />
+      <button type="button" class="gallery-nav gallery-next" id="gallery-next" aria-label="Next">›</button>
+      <p class="gallery-caption" id="gallery-caption">${esc(photos[i].alt || "")}</p>
+    </div>`;
+  document.body.appendChild(overlay);
+
+  const show = (n) => {
+    i = ((n % photos.length) + photos.length) % photos.length;
+    const img = $("#gallery-full");
+    const cap = $("#gallery-caption");
+    img.src = photos[i].src;
+    img.alt = photos[i].alt || "Campus photo";
+    if (cap) cap.textContent = photos[i].alt || "";
+  };
+
+  $("#gallery-close")?.addEventListener("click", closeGalleryLightbox);
+  $("#gallery-prev")?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    show(i - 1);
+  });
+  $("#gallery-next")?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    show(i + 1);
+  });
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) closeGalleryLightbox();
+  });
+}
+
+function closeGalleryLightbox() {
+  $("#gallery-lightbox")?.remove();
+}
+
 function renderMenu(d) {
   const links = [
     ["Home", "/"],
@@ -584,6 +657,7 @@ function renderMenu(d) {
     ["Societies & Sports", "/societies"],
     ["Academics & Fees", "/academics"],
     ["Student Union", "/union"],
+    ["Gallery", "/gallery"],
     ["Help & Safety", "/help"],
     ["About / Credits", "/about"],
   ];
@@ -630,6 +704,7 @@ const ROUTES = {
   "/grievance": renderHelp,
   "/conduct": renderHelp,
   "/emergency": renderHelp,
+  "/gallery": renderGallery,
   "/menu": renderMenu,
   "/about": renderAbout,
 };
@@ -655,6 +730,7 @@ function pageTitle(p) {
     "/union": "Student Union",
     "/admissions": "Admission Help",
     "/help": "Help & Safety",
+    "/gallery": "Gallery",
     "/menu": "Menu",
     "/about": "About",
   };
@@ -702,6 +778,12 @@ function bindPageEvents(p) {
   $$(".tap-phone").forEach((btn) => {
     btn.addEventListener("click", () => openPhoneSheet(btn.dataset.phone, btn.dataset.name));
   });
+
+  if (p === "/gallery") {
+    $$(".gallery-item").forEach((btn) => {
+      btn.addEventListener("click", () => openGalleryLightbox(Number(btn.dataset.galleryIndex)));
+    });
+  }
 }
 
 function openPhoneSheet(phone, name) {
@@ -753,6 +835,7 @@ function buildIndex(d) {
     add(name, "Sports", "/societies", extra);
   });
   add("Principal complaint", "Complaint", "/help", "principal@mac.du.ac.in");
+  add("Gallery", "Campus", "/gallery", "campus photos");
   d.admissionHelp.team.forEach((t) => add(t.name, "Admission Help", "/admissions", t.phone));
   d.union.members.forEach((m) => add(m.name, m.role, "/union"));
   d.fees.courses.forEach((c) => add(c.name, "Fees", "/academics", String(c.total)));
@@ -822,7 +905,7 @@ async function sharePage() {
 }
 
 async function init() {
-  const res = await fetch("data/guide.json?v=17", { cache: "no-store" });
+  const res = await fetch("data/guide.json?v=18", { cache: "no-store" });
   DATA = await res.json();
   INDEX = buildIndex(DATA);
 
