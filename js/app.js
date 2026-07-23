@@ -803,7 +803,7 @@ async function sharePage() {
 }
 
 async function init() {
-  const res = await fetch("data/guide.json?v=11", { cache: "no-store" });
+  const res = await fetch("data/guide.json?v=13", { cache: "no-store" });
   DATA = await res.json();
   INDEX = buildIndex(DATA);
 
