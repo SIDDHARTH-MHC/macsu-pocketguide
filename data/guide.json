@@ -17,6 +17,10 @@
     "whatsappGroupUrl": "https://chat.whatsapp.com/GTpKaz9Ex7j7HCZes2aphI",
     "whatsappGroupLabel": "Join our WhatsApp group",
     "whatsappGroupSub": "All admission updates, orientation, and help - one place. Tap Join.",
+    "idCardAlert": {
+      "title": "No ID card yet? Carry these every day",
+      "body": "Till you get your college ID card, always bring a printout of your fee receipt with your Aadhaar card. Campus entry and verification need this - don't leave home without it."
+    },
     "grievanceEmail": "gcr_mac@mac.du.ac.in",
     "grcEmail": "grc_mac@mac.du.ac.in",
     "welcome": "Welcome to MAC, fresher. This guide is written by seniors who've stood in the same queues, haggled with the same e-rickshaw bhaiya, and somehow figured it all out. Keep it bookmarked - you'll need it more than once.",
@@ -464,6 +468,7 @@
     { "label": "College Grievance Mailbox", "phone": "", "email": "gcr_mac@mac.du.ac.in" }
   ],
   "firstWeek": [
+    "NO ID YET: Carry fee receipt printout + Aadhaar every day until your college ID card is issued",
     "Join the Student Union WhatsApp group first - all admission and orientation updates land there",
     "Carry originals + photocopies of admission documents and a few passport photos",
     "Find the Student Union Help Desk on day 1 - they'll point you everywhere",
@@ -480,7 +485,11 @@
     },
     {
       "q": "Where do I get my ID card?",
-      "a": "Through the college admin process after admission - ask the Student Union Help Desk on day 1."
+      "a": "Through the college admin process after admission. Till you get it, always carry your fee receipt printout with your Aadhaar card - that works for campus entry and verification."
+    },
+    {
+      "q": "I don't have my ID card yet. What do I carry?",
+      "a": "Fee receipt printout + Aadhaar card. Every day, until your college ID is issued. This is important - don't forget."
     },
     {
       "q": "How do attendance rules work?",

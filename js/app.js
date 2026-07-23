@@ -102,6 +102,17 @@ function contactActions(m, opts = {}) {
   return bits.join("");
 }
 
+function idCardAlert(d) {
+  const a = d.meta.idCardAlert;
+  if (!a) return "";
+  return `
+    <aside class="id-alert" role="note">
+      <span class="id-alert-kicker">Very important</span>
+      <strong class="id-alert-title">${esc(a.title)}</strong>
+      <p class="id-alert-body">${esc(a.body)}</p>
+    </aside>`;
+}
+
 function waBanner(d, variant = "default") {
   if (!d.meta.whatsappGroupUrl) return "";
   const cls = variant === "hero" ? "wa-hero" : variant === "sticky" ? "wa-sticky" : "wa-banner";
@@ -167,6 +178,7 @@ function renderHome(d) {
         <p class="presented">${esc(m.presentedBy)}</p>
       </div>
       ${waBanner(d, "hero")}
+      ${idCardAlert(d)}
       <p class="lazy-line">Already joined? Then tap what you need below.</p>
       <nav class="icon-grid" aria-label="Quick links">${tiles}</nav>
       <div class="home-actions">
@@ -471,6 +483,7 @@ function renderAdmissions(d) {
       <p>${esc(d.admissionHelp.intro)}</p>
     </header>
     ${waBanner(d, "hero")}
+    ${idCardAlert(d)}
     <h2 class="section-label">What we help with</h2>
     <ul class="prose">${helps}</ul>
     <h2 class="section-label">Student Union Help Desk</h2>
@@ -544,6 +557,7 @@ function renderHelp(d) {
     </div>
     <ul class="contact-list">${emergency}</ul>
     <h2 class="section-label">First week survival</h2>
+    ${idCardAlert(d)}
     ${waBanner(d)}
     <ul class="prose">${first}</ul>
     <h2 class="section-label">College committees</h2>
@@ -808,7 +822,7 @@ async function sharePage() {
 }
 
 async function init() {
-  const res = await fetch("data/guide.json?v=16", { cache: "no-store" });
+  const res = await fetch("data/guide.json?v=17", { cache: "no-store" });
   DATA = await res.json();
   INDEX = buildIndex(DATA);
 

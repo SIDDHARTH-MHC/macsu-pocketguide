@@ -640,7 +640,41 @@ body {
   border: 1px solid rgba(255,255,255,0.35);
 }
 
-/* Big home WhatsApp hero - primary conversion */
+/* ID card / fee receipt alert - high priority */
+.id-alert {
+  margin: 0 0 1rem;
+  padding: 1rem 1rem 1.05rem;
+  background: #fff8e8;
+  border: 2.5px solid var(--saffron);
+  box-shadow: 0 4px 0 color-mix(in srgb, var(--saffron) 55%, #8A5A12);
+}
+.id-alert-kicker {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--saffron);
+  padding: 0.2rem 0.5rem;
+  margin-bottom: 0.45rem;
+}
+.id-alert-title {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--maroon-deep);
+  line-height: 1.2;
+  margin-bottom: 0.35rem;
+}
+.id-alert-body {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.45;
+}
 .wa-hero {
   display: flex;
   flex-direction: column;
