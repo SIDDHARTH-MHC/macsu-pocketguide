@@ -302,7 +302,30 @@ body {
   font-size: 0.95rem;
 }
 
-.meta-row.center { text-align: center; }
+.area-list {
+  list-style: none;
+  margin: 0.35rem 0 0.75rem;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.area-chip {
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 0.4rem 0.7rem;
+  background: #fff;
+  border: 1.5px solid var(--navy);
+  color: var(--navy);
+}
+.dont-list {
+  margin: 0.35rem 0 1.25rem;
+  padding-left: 1.15rem;
+  color: var(--ink-soft);
+}
+.dont-list li {
+  margin-bottom: 0.45rem;
+}
 
 .welcome {
   position: relative;

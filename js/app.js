@@ -226,7 +226,12 @@ function renderReach(d) {
 
 function renderAccommodation(d) {
   const a = d.accommodation;
-  const bring = a.mustBring
+  const areas = (a.where?.areas || [])
+    .map((area) => `<li class="area-chip">${esc(area)}</li>`)
+    .join("");
+  const lookFor = (a.where?.lookFor || []).map((t) => `<li>${esc(t)}</li>`).join("");
+  const donts = (a.donts?.items || []).map((t) => `<li>${esc(t)}</li>`).join("");
+  const pack = (a.packing?.items || a.mustBring || [])
     .map(
       (b) => `
       <details>
@@ -235,31 +240,31 @@ function renderAccommodation(d) {
       </details>`
     )
     .join("");
+
   return `
     <header class="page-head">
-      <h1>Accommodation</h1>
-      <p>${esc(a.intro || "Hostel, PG, flats - and what to pack.")}</p>
+      <h1>Where to stay</h1>
+      <p>${esc(a.intro)}</p>
     </header>
-    <h2 class="section-label">${esc(a.hostel.title)}</h2>
-    <p class="prose">${esc(a.hostel.body)}</p>
-    <h2 class="section-label">${esc(a.pg.title)}</h2>
+
+    <h2 class="section-label">${esc(a.where.title)}</h2>
+    <p class="prose">${esc(a.where.hostel)}</p>
+    <p class="prose"><strong>Best areas near MAC</strong></p>
+    <ul class="area-list">${areas}</ul>
+    <p class="fee-note">${esc(a.where.areasNote)}</p>
     <div class="acc">
       <details open>
-        <summary>PG checklist</summary>
-        <div class="acc-body"><ul>${a.pg.checks.map((c) => `<li>${esc(c)}</li>`).join("")}</ul></div>
+        <summary>What to look for</summary>
+        <div class="acc-body"><ul>${lookFor}</ul></div>
       </details>
     </div>
-    <h2 class="section-label">${esc(a.flats.title)}</h2>
-    <div class="acc">
-      <details>
-        <summary>Flat checklist</summary>
-        <div class="acc-body"><ul>${a.flats.checks.map((c) => `<li>${esc(c)}</li>`).join("")}</ul></div>
-      </details>
-    </div>
-    <h2 class="section-label">Must-bring list</h2>
-    <div class="acc">${bring}</div>
-    <h2 class="section-label">General tips</h2>
-    <ul class="prose">${a.tips.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>`;
+
+    <h2 class="section-label">${esc(a.donts.title)}</h2>
+    <ul class="dont-list">${donts}</ul>
+
+    <h2 class="section-label">${esc(a.packing.title)}</h2>
+    <p class="prose">${esc(a.packing.intro || "")}</p>
+    <div class="acc">${pack}</div>`;
 }
 
 function renderSocieties(d) {
@@ -630,7 +635,7 @@ function pageTitle(p) {
     "/": "Pocket Guide",
     "/home": "Pocket Guide",
     "/reach": "Reach Campus",
-    "/accommodation": "Accommodation",
+    "/accommodation": "Where to stay",
     "/societies": "Societies",
     "/academics": "Academics",
     "/union": "Student Union",
@@ -803,7 +808,7 @@ async function sharePage() {
 }
 
 async function init() {
-  const res = await fetch("data/guide.json?v=13", { cache: "no-store" });
+  const res = await fetch("data/guide.json?v=14", { cache: "no-store" });
   DATA = await res.json();
   INDEX = buildIndex(DATA);
 

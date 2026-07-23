@@ -178,46 +178,55 @@
     "closing": "Whether you're using public transport or a ride-hailing app, getting to MAC is straightforward and affordable."
   },
   "accommodation": {
-    "intro": "Finding the right accommodation is essential for a comfortable college life. Here's how to navigate your options.",
-    "hostel": {
-      "title": "On-campus Girls' Hostel",
-      "body": "MAC offers an on-campus Girls' Hostel with limited capacity. Safe environment with meals, Wi-Fi, study areas, and common rooms. Due to limited seats, apply as early as possible."
-    },
-    "pg": {
-      "title": "Paying Guest (PG)",
-      "checks": [
-        "Must-haves: bed, wardrobe, Wi-Fi, study table; laundry/meals/cleaning are bonuses",
-        "Ventilation: avoid basement rooms - damp, dark, poorly aired",
-        "Food: ask for a trial meal before you commit",
-        "No lock-in period - keep the option to leave if it's bad"
+    "intro": "Three things that matter: where to take a PG/flat, what not to do, and what to pack.",
+    "where": {
+      "title": "Where to take a PG / flat",
+      "hostel": "Girls: on-campus hostel exists but seats are limited - apply early. Meals, Wi-Fi, study areas, common rooms.",
+      "areas": [
+        "New Ashok Nagar",
+        "New Kondli",
+        "Mayur Vihar Phase 3",
+        "Noida Sector 15",
+        "Trilokpuri"
+      ],
+      "areasNote": "These are closest / best connected to MAC by metro or e-rickshaw. Ask seniors in the WhatsApp group before you finalise.",
+      "lookFor": [
+        "Close to metro or a short e-rickshaw ride to college",
+        "Near markets, pharmacies, and daily needs",
+        "Bed, wardrobe, Wi-Fi, study table (laundry/meals/cleaning are bonuses)",
+        "For flats: basic furnishings, stove/fridge if possible, reliable internet",
+        "Safety: CCTV, gated entry, guard - especially if you're new to Delhi",
+        "Shared rooms cut rent - live with people you can actually get along with",
+        "Always visit in person before paying any deposit",
+        "Proper rent agreement stating rent, deposit, and terms"
       ]
     },
-    "flats": {
-      "title": "Flats & Apartments",
-      "checks": [
-        "Location close to college or well-connected via metro/bus; near markets & pharmacies",
-        "Basic furnishings, appliances (stove, fridge, washing machine), reliable internet",
-        "Safety: CCTV, gated entry, security guard",
-        "Ventilation and natural light - avoid cramped, poorly lit places",
-        "No restrictive lock-in - flexibility matters when you're new to the city"
+    "donts": {
+      "title": "What not to do",
+      "items": [
+        "Don't take basement rooms - damp, dark, poorly ventilated",
+        "Don't sign long lock-in periods - keep the option to leave if it's bad",
+        "Don't finalise food without a trial meal at the PG",
+        "Don't pay full deposit / advance without seeing the actual room",
+        "Don't skip checking washrooms, kitchen, and water supply",
+        "Don't ignore safety (unguarded buildings, no CCTV, shady brokers)",
+        "Don't accept verbal-only deals - get terms in writing",
+        "Don't move into cramped, poorly lit flats just because they're cheaper"
       ]
     },
-    "mustBring": [
-      { "cat": "Bedding", "items": "Bedsheets, pillows, blankets; mattress topper helps - hostel beds aren't always soft" },
-      { "cat": "Kitchen", "items": "Basic utensils, kettle, snacks; portable induction if cooking is allowed" },
-      { "cat": "Personal care", "items": "Toiletries, towels, detergent, cleaning supplies, first-aid kit" },
-      { "cat": "Study", "items": "Study lamp, stationery; comfortable chair if the room doesn't have one" },
-      { "cat": "Storage", "items": "Extra boxes/organisers to maximise space in smaller rooms" },
-      { "cat": "Power", "items": "Power strip, fan; small fridge if not provided" },
-      { "cat": "Emergency", "items": "Torch, batteries, portable charger - lifesavers during outages" }
-    ],
-    "tips": [
-      "Look around New Ashok Nagar, New Kondli, Mayur Vihar Phase 3, Noida Sec-15, Trilokpuri",
-      "Shared cuts cost - find people you can actually live with",
-      "Always inspect rooms, washrooms, kitchen, and common areas before paying",
-      "Get a proper rent agreement (rent, deposit, terms) - watch for hidden charges",
-      "Ask seniors for recommendations - they've already made the mistakes"
-    ]
+    "packing": {
+      "title": "Packing guide",
+      "intro": "Bring these so day one isn't a shopping marathon.",
+      "items": [
+        { "cat": "Bedding", "items": "Bedsheets, pillows, blankets; mattress topper helps" },
+        { "cat": "Kitchen", "items": "Basic utensils, kettle, snacks; portable induction if cooking is allowed" },
+        { "cat": "Personal care", "items": "Toiletries, towels, detergent, cleaning supplies, first-aid kit" },
+        { "cat": "Study", "items": "Study lamp, stationery; chair if the room doesn't have one" },
+        { "cat": "Storage", "items": "Extra boxes/organisers for small rooms" },
+        { "cat": "Power", "items": "Power strip, fan; small fridge if not provided" },
+        { "cat": "Emergency", "items": "Torch, batteries, portable charger" }
+      ]
+    }
   },
   "societies": [
     { "name": "Markos", "desc": "The Marketing Society - strategies, workshops, live projects.", "cat": "Skill", "instagram": "markos.du" },
