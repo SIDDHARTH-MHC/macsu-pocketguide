@@ -1,0 +1,474 @@
+{
+  "meta": {
+    "title": "MAC Pocket Guide for Freshies 2026",
+    "shortName": "MAC Pocket Guide",
+    "college": "Maharaja Agrasen College",
+    "university": "University of Delhi",
+    "address": "Vasundhara Enclave, Delhi - 110096",
+    "mapsUrl": "https://maps.google.com/?q=Maharaja+Agrasen+College+Vasundhara+Enclave",
+    "presentedBy": "Student Union 2025-26 & ABVP",
+    "instagram": "macsu_official",
+    "instagramUrl": "https://www.instagram.com/macsu_official/",
+    "abvpInstagram": "abvpmac",
+    "abvpInstagramUrl": "https://www.instagram.com/abvpmac/",
+    "email": "studentunion.mac@gmail.com",
+    "emailAlt": "mac_su@mac.du.ac.in",
+    "principalEmail": "principal@mac.du.ac.in",
+    "whatsappGroupUrl": "https://chat.whatsapp.com/GTpKaz9Ex7j7HCZes2aphI",
+    "whatsappGroupLabel": "Join our WhatsApp group",
+    "whatsappGroupSub": "All admission updates, orientation, and help - one place. Tap Join.",
+    "grievanceEmail": "gcr_mac@mac.du.ac.in",
+    "grcEmail": "grc_mac@mac.du.ac.in",
+    "welcome": "Welcome to MAC, fresher. This guide is written by seniors who've stood in the same queues, haggled with the same e-rickshaw bhaiya, and somehow figured it all out. Keep it bookmarked - you'll need it more than once.",
+    "year": "2026",
+    "collegeCommitteesUrl": "https://mac.du.ac.in/college-comittee.aspx",
+    "grievancePageUrl": "https://mac.du.ac.in/grievance-redressal-committee.aspx"
+  },
+  "union": {
+    "intro": "The Maharaja Agrasen College Student Union represents and supports the student body. Our primary goal is to ensure every student has a voice and that concerns reach the college administration. We also organise events and activities that enrich campus life - from orientation desks to Yuvaan, the college fest.",
+    "howWeHelp": "Whether it's academic concerns, campus facilities, or extracurriculars, we are your first point of contact. Feel free to approach any elected member or reach us on Instagram / email.",
+    "members": [
+      {
+        "role": "President",
+        "name": "Parvinder Deswal",
+        "photo": "assets/union/parvinder.jpg",
+        "instagram": "parvinder.abvp",
+        "instagramUrl": "https://www.instagram.com/parvinder.abvp/"
+      },
+      {
+        "role": "Vice President",
+        "name": "Garima Singh Chauhan",
+        "photo": "assets/union/garima.jpg",
+        "instagram": "garima.abvp",
+        "instagramUrl": "https://www.instagram.com/garima.abvp/"
+      },
+      {
+        "role": "General Secretary",
+        "name": "Rounak Roy",
+        "photo": "assets/union/rounak.jpg"
+      },
+      {
+        "role": "Joint Secretary",
+        "name": "Samriddhi Tripathi",
+        "photo": "assets/union/samriddhi.jpg"
+      },
+      {
+        "role": "Women Development Secretary",
+        "name": "Yachita Parihar",
+        "photo": "assets/union/yachita.jpg",
+        "instagram": "yachita.abvp",
+        "instagramUrl": "https://www.instagram.com/yachita.abvp/",
+        "phone": "9086325818"
+      }
+    ],
+    "teamPhoto": "assets/union/team.jpg",
+    "abvpPhoto": "assets/union/abvp-team.jpg",
+    "credit": "Team ABVP for MACSU",
+    "office": "Student Union office on campus"
+  },
+  "fest": {
+    "name": "Yuvaan",
+    "instagram": "yuvaan.mac",
+    "instagramUrl": "https://www.instagram.com/yuvaan.mac/",
+    "body": "Yuvaan is MAC's annual college fest - the one week the whole campus turns into a stage. Last edition was organised by the ABVP-led MACSU. For the first time in MAC's history, two artists performed on the same fest: Karma and Shiva Chaudhary. Follow @yuvaan.mac for dates, passes, and line-ups."
+  },
+  "admissionHelp": {
+    "intro": "Our Student Union Help Desk guides you through document verification, campus info, accommodation tips, course selection, and exam-form confusion. Seniors who've done this before - tap to call or DM on Instagram.",
+    "helpsWith": [
+      "Document verification",
+      "Campus information & facilities",
+      "Accommodation advice",
+      "Course selection guidance",
+      "Query resolution",
+      "Examination form help"
+    ],
+    "team": [
+      {
+        "name": "Vaidehi Prasad",
+        "phone": "9955588852",
+        "instagram": "vaidehi.abvp",
+        "instagramUrl": "https://www.instagram.com/vaidehi.abvp/"
+      },
+      {
+        "name": "Yachita Parihar",
+        "phone": "9086325818",
+        "instagram": "yachita.abvp",
+        "instagramUrl": "https://www.instagram.com/yachita.abvp/"
+      },
+      {
+        "name": "Rupanshu Raj Mahawar",
+        "phone": "8076202061",
+        "instagram": "rupanshuraj.abvp",
+        "instagramUrl": "https://www.instagram.com/rupanshuraj.abvp/"
+      },
+      {
+        "name": "Krishna Nayak",
+        "phone": "6396982898",
+        "instagram": "__krishna.abvp",
+        "instagramUrl": "https://www.instagram.com/__krishna.abvp/",
+        "note": "Super Senior (Passout)"
+      },
+      {
+        "name": "Siddharth Mahajan",
+        "phone": "8923944033",
+        "instagram": "_siddharthagupta",
+        "instagramUrl": "https://www.instagram.com/_siddharthagupta/",
+        "note": "Super Senior (Passout)"
+      }
+    ]
+  },
+  "reach": {
+    "intro": "Maharaja Agrasen College, affiliated with Delhi University, is spread across a 10-acre campus in Vasundhara Enclave, East Delhi. It is conveniently located near three metro stations, ensuring easy accessibility from across the city and beyond.",
+    "metroStations": [
+      {
+        "name": "New Ashok Nagar",
+        "line": "Blue Line · also Namo Bharat (RRTS)",
+        "note": "Best pick if you're on RRTS / coming from further out"
+      },
+      {
+        "name": "Noida Sector 15",
+        "line": "Blue Line",
+        "note": "Short e-rickshaw hop to campus"
+      },
+      {
+        "name": "Trilokpuri",
+        "line": "Pink Line",
+        "note": "Handy from East / North-East Delhi"
+      }
+    ],
+    "erickshaw": "From any of these stations, take an e-rickshaw - typically ₹20. We've all haggled with that bhaiya; don't pay more.",
+    "modes": [
+      {
+        "id": "bus",
+        "title": "Bus",
+        "body": "Nearby stops: Vasundhara Enclave and Noida Mod. Frequent DTC services to Delhi and Noida. For routes and schedules, use the DTC website or the One Delhi app."
+      },
+      {
+        "id": "auto",
+        "title": "Auto / Cab",
+        "body": "The area is well-serviced by auto-rickshaws and taxis. Ola, Uber, and Rapido are widely available - useful for late evenings or when you're carrying bags on day one."
+      }
+    ],
+    "closing": "Whether you're using public transport or a ride-hailing app, getting to MAC is straightforward and affordable."
+  },
+  "accommodation": {
+    "intro": "Finding the right accommodation is essential for a comfortable college life. Here's how to navigate your options.",
+    "hostel": {
+      "title": "On-campus Girls' Hostel",
+      "body": "MAC offers an on-campus Girls' Hostel with limited capacity. Safe environment with meals, Wi-Fi, study areas, and common rooms. Due to limited seats, apply as early as possible."
+    },
+    "pg": {
+      "title": "Paying Guest (PG)",
+      "checks": [
+        "Must-haves: bed, wardrobe, Wi-Fi, study table; laundry/meals/cleaning are bonuses",
+        "Ventilation: avoid basement rooms - damp, dark, poorly aired",
+        "Food: ask for a trial meal before you commit",
+        "No lock-in period - keep the option to leave if it's bad"
+      ]
+    },
+    "flats": {
+      "title": "Flats & Apartments",
+      "checks": [
+        "Location close to college or well-connected via metro/bus; near markets & pharmacies",
+        "Basic furnishings, appliances (stove, fridge, washing machine), reliable internet",
+        "Safety: CCTV, gated entry, security guard",
+        "Ventilation and natural light - avoid cramped, poorly lit places",
+        "No restrictive lock-in - flexibility matters when you're new to the city"
+      ]
+    },
+    "mustBring": [
+      { "cat": "Bedding", "items": "Bedsheets, pillows, blankets; mattress topper helps - hostel beds aren't always soft" },
+      { "cat": "Kitchen", "items": "Basic utensils, kettle, snacks; portable induction if cooking is allowed" },
+      { "cat": "Personal care", "items": "Toiletries, towels, detergent, cleaning supplies, first-aid kit" },
+      { "cat": "Study", "items": "Study lamp, stationery; comfortable chair if the room doesn't have one" },
+      { "cat": "Storage", "items": "Extra boxes/organisers to maximise space in smaller rooms" },
+      { "cat": "Power", "items": "Power strip, fan; small fridge if not provided" },
+      { "cat": "Emergency", "items": "Torch, batteries, portable charger - lifesavers during outages" }
+    ],
+    "tips": [
+      "Look around New Ashok Nagar, New Kondli, Mayur Vihar Phase 3, Noida Sec-15, Trilokpuri",
+      "Shared cuts cost - find people you can actually live with",
+      "Always inspect rooms, washrooms, kitchen, and common areas before paying",
+      "Get a proper rent agreement (rent, deposit, terms) - watch for hidden charges",
+      "Ask seniors for recommendations - they've already made the mistakes"
+    ]
+  },
+  "societies": [
+    { "name": "Markos", "desc": "The Marketing Society - strategies, workshops, live projects.", "cat": "Skill", "instagram": "markos.du" },
+    { "name": "Inquizitive", "desc": "Quiz Society - quizzes across every topic under the sun.", "cat": "Skill", "instagram": "macquizsociety" },
+    { "name": "Nataraj", "desc": "The Dance Society - all forms, stage to street.", "cat": "Cultural", "instagram": "macdancesociety" },
+    { "name": "Samayantar", "desc": "The Stage Play Society - acting, production, the works.", "cat": "Cultural", "instagram": "mac.samayantar" },
+    { "name": "Abhinay", "desc": "The Street Play Society - socially relevant street plays.", "cat": "Cultural", "instagram": "abhinay.agrasen" },
+    { "name": "SPIC MACAY", "desc": "MAC Chapter - Indian classical music & culture.", "cat": "Cultural", "instagram": "spicmacay_mac" },
+    { "name": "Anchoring Pool", "desc": "Public speaking and event hosting practice.", "cat": "Cultural", "instagram": "mac_anchoringpool" },
+    { "name": "Septune", "desc": "The Music Society - perform and collaborate across genres.", "cat": "Cultural", "instagram": "musicsocietymac" },
+    { "name": "Meraki", "desc": "The English Theatre Society - act, direct, script.", "cat": "Cultural", "instagram": "meraki.mac" },
+    { "name": "Srijan", "desc": "The Art & Craft Society - workshops and exhibitions.", "cat": "Cultural", "instagram": "srijanmac" },
+    { "name": "Qissa", "desc": "Filmmaking and Photography Society - shoot, edit, show.", "cat": "Cultural", "instagram": "qissamac" },
+    { "name": "Chakraview", "desc": "The Debating Society - regular debates and competitions.", "cat": "Literary", "instagram": "chakraviewmac" },
+    { "name": "North-East Society", "desc": "Celebrating North-East heritage on campus.", "cat": "Cultural", "instagram": "mac_ne_society" },
+    { "name": "Vivekananda Study Circle", "desc": "Discussions on Swami Vivekananda's teachings.", "cat": "Literary", "instagram": "vivekanandastudycircle_mac" },
+    { "name": "Lakshya", "desc": "BA Programme Society - academic enrichment & extras.", "cat": "Academic", "instagram": "lakshya__mac" },
+    { "name": "Techtitans", "desc": "Electronics Society - projects and tech exploration.", "cat": "Tech", "instagram": "techtitans__mac" },
+    { "name": "E-Cell", "desc": "Entrepreneurship events and startup workshops.", "cat": "Skill", "instagram": "ecell_mac" },
+    { "name": "Ramanujan Maths Society", "desc": "Problem-solving and maths events.", "cat": "Academic", "instagram": "mac_infinity_" },
+    { "name": "MACstak", "desc": "Tech Society - coding, hackathons, workshops.", "cat": "Tech", "instagram": "macstak.du" },
+    { "name": "Cultural Council", "desc": "Organising Committee for cultural events and fests.", "cat": "Cultural", "instagram": "cultural.council_mac" },
+    { "name": "Chanakya", "desc": "Department of Political Science - seminars, discussions, events.", "cat": "Academic", "instagram": "chanakya.mac" },
+    { "name": "Vigyanmanthan", "desc": "Department of Physical Sciences - scientific thinking & events.", "cat": "Academic", "instagram": "vigyanmanthan_mac" },
+    { "name": "Hindi Vibhag", "desc": "Hindi language and literature.", "cat": "Academic", "instagram": "hindi_mac" },
+    { "name": "Active Literary Society", "desc": "Book readings, discussions, writing workshops.", "cat": "Literary", "instagram": "_litsocmac_" },
+    { "name": "Himalayan Study Circle", "desc": "Himalayan culture, history, and issues.", "cat": "Cultural", "instagram": "hsc_mac" },
+    { "name": "Commerce Society", "desc": "Commerce academics and events.", "cat": "Academic", "instagram": "maccommercesociety" },
+    { "name": "Aspirants Club", "desc": "UPSC and competitive exam support.", "cat": "Skill", "instagram": "upsc_mac" },
+    { "name": "BBE Society", "desc": "BBE Department - academic & extracurricular.", "cat": "Academic", "instagram": "mac_bbe" },
+    { "name": "Journalism Society", "desc": "Journalism Dept. - workshops, seminars, field trips.", "cat": "Academic", "instagram": "journalism.mac" },
+    { "name": "Training & Placement Cell", "desc": "Campus placements and training.", "cat": "Skill", "instagram": "mac.tpc" },
+    { "name": "Commerce Placement Cell", "desc": "Placement support for commerce students.", "cat": "Skill", "instagram": "mac.cpc" },
+    { "name": "NSS", "desc": "National Service Scheme - community service.", "cat": "Skill", "instagram": "mac_nss" },
+    { "name": "NCC", "desc": "National Cadet Corps (Girls).", "cat": "Skill", "instagram": "mac_ncc_girls" }
+  ],
+  "sports": [
+    { "name": "Sports (MAC)", "desc": "College sports page - trials and updates.", "instagram": "sports_mac_du" },
+    { "name": "Cricket", "desc": "Inter-college and other cricket tournaments.", "instagram": "maccricketteam" },
+    { "name": "Basketball", "desc": "College basketball team - various competitions.", "instagram": "mac__basketball" },
+    { "name": "Football", "desc": "Inter-college and other football events.", "instagram": "mac__football" },
+    { "name": "Volleyball", "desc": "Volleyball tournament side.", "instagram": "mac.volleyball_" },
+    { "name": "Baseball", "desc": "College baseball team.", "instagram": "mac_baseball_" },
+    { "name": "Kabaddi", "desc": "Ranbhoomi - kabaddi team.", "instagram": "ranbhoomi_mac" },
+    { "name": "Kho-Kho", "desc": "Kho-kho team." },
+    { "name": "Badminton", "desc": "Inter-college badminton." }
+  ],
+  "academics": {
+    "electives": [
+      {
+        "code": "SEC",
+        "title": "Skill Enhancement Course",
+        "body": "Focuses on technical and practical skills. Across 6 semesters you'll choose different SECs - each built to make you industry-ready in a practical domain."
+      },
+      {
+        "code": "VAC",
+        "title": "Value Addition Course",
+        "body": "Offered in the first 4 semesters. Builds your moral and ethical foundation - holistic development that shows up in personal and professional life."
+      },
+      {
+        "code": "GE",
+        "title": "Generic Elective",
+        "body": "Mainly for honours students - a subject outside your major. Once chosen, it stays consistent and becomes your minor. For BA Prog students: Hindi or English as GE."
+      },
+      {
+        "code": "AEC",
+        "title": "Ability Enhancement Course",
+        "body": "EVS in one year, an Indian language in another. The sequence repeats across years for a well-rounded education."
+      }
+    ],
+    "electivesNote": "You'll receive the list of available SEC/VAC courses by email from the college. Choose what aligns with your interests and goals. More detail is in the prospectus on the college website and at orientation.",
+    "baProg": {
+      "title": "Special note for BA Programme",
+      "body": "As a BAP student you choose a combination of two subjects. Each year, one is your major and the other your minor. You can change major and minor in the 3rd semester based on interest or academic goals.",
+      "how": [
+        "Major = you study both the major and minor papers of that subject (more depth)",
+        "Minor = only the minor paper of that subject (broader secondary area)"
+      ],
+      "example": {
+        "title": "Example: History + Political Science",
+        "steps": [
+          "Year 1 - History major: major + minor papers in History, only the minor paper in Political Science",
+          "Year 2 - you may switch: Political Science becomes major (major + minor papers), History becomes minor paper only",
+          "If you keep History as major throughout and meet the minimum credits, History is your degree specialisation with Political Science as minor - reflected on your final degree"
+        ]
+      }
+    }
+  },
+  "fees": {
+    "note": "* University share as decided by University of Delhi. Fees may be revised - confirm at the fee counter / college website.",
+    "courses": [
+      { "name": "B.A. (Prog.)", "total": 19240 },
+      { "name": "B.A. (H) Hindi", "total": 19240 },
+      { "name": "B.A. (H) English", "total": 19240 },
+      { "name": "B.A. (H) Political Science", "total": 19240 },
+      { "name": "B.A. (H) BBE", "total": 24240 },
+      { "name": "B.A. (H) Journalism", "total": 23240 },
+      { "name": "B.Sc. (H) Electronics", "total": 24240 },
+      { "name": "B.Sc. Physical Science", "total": 23240 },
+      { "name": "B.Sc. Mathematical Science", "total": 20240 },
+      { "name": "B.Com. (H)", "total": 20240 }
+    ],
+    "breakdown": [
+      { "item": "Tuition", "amount": "₹180" },
+      { "item": "University Student Welfare Fund", "amount": "₹300" },
+      { "item": "College Student Welfare Fund", "amount": "₹10,450" },
+      { "item": "University Development Fund", "amount": "₹1,750" },
+      { "item": "College Development Fund", "amount": "₹2,000-7,000 (varies by course)" },
+      { "item": "University Facilities & Services", "amount": "₹1,750" },
+      { "item": "College Facilities & Services", "amount": "₹2,060" },
+      { "item": "EWS Support University Fund", "amount": "₹300" },
+      { "item": "Student Union Fund (MAC)", "amount": "₹450" }
+    ]
+  },
+  "conduct": [
+    {
+      "title": "Academic Integrity",
+      "body": "Uphold honesty in assignments, exams, and projects. Plagiarism, cheating, or any academic dishonesty is strictly prohibited. Submit your own work; cite others properly."
+    },
+    {
+      "title": "Respect for Others",
+      "body": "Respect everyone regardless of background, religion, gender, sexual orientation, or ethnicity. No discrimination, harassment, or bullying. Engage in civil dialogue - abusive language and intimidation are unacceptable. Attend classes regularly, be punctual, don't disrupt lectures."
+    },
+    {
+      "title": "Campus Behaviour",
+      "body": "Keep the campus clean - use bins. Respect college property (furniture, equipment, facilities). Vandalism leads to disciplinary action."
+    },
+    {
+      "title": "Hostel Conduct",
+      "body": "Follow hostel curfew. Late entries need prior permission. Visitors only as per hostel rules - unauthorised visitors not allowed."
+    },
+    {
+      "title": "Safety & Security",
+      "body": "Always carry your college ID and present it when asked. Drugs, alcohol, and other intoxicants are strictly prohibited on campus and at college-hosted events."
+    },
+    {
+      "title": "Disciplinary Process & Appeal",
+      "body": "Violations may mean warning, suspension, or expulsion depending on severity. You have the right to appeal by submitting a formal request to the disciplinary committee within the specified period."
+    },
+    {
+      "title": "Grievance Reporting",
+      "body": "Report grievances on academics, hostel life, or interpersonal conflicts to the concerned authorities. Don't sit on problems."
+    },
+    {
+      "title": "Legal Compliance",
+      "body": "Comply with all applicable laws including those of the University of Delhi. Illegal activities on or off campus have serious consequences."
+    }
+  ],
+  "committees": {
+    "source": "Official MAC website notices (Grievance Redressal reconstituted 13 Mar 2026; Admission Grievance page; Anti-Ragging office order 24 Jun 2025)",
+    "items": [
+      {
+        "name": "Grievance Redressal Committee",
+        "purpose": "Public grievance redressal mechanism (reconstituted 13 Mar 2026).",
+        "members": [
+          { "name": "Prof. Raman Mittal", "role": "Chairman, Governing Body" },
+          { "name": "Ms. Puneeta Agarwal", "role": "Associate Professor, Commerce" },
+          { "name": "Prof. Rajhans Kumar", "role": "Professor, Hindi" },
+          { "name": "Prof. Mukesh Agarwal", "role": "Professor, Physical Education" },
+          { "name": "Mr. Madhav Arora", "role": "B.A. (H) Journalism 2nd Year" }
+        ],
+        "email": "grc_mac@mac.du.ac.in",
+        "link": "https://mac.du.ac.in/grievance-redressal-committee.aspx"
+      },
+      {
+        "name": "Convenor, Admissions",
+        "purpose": "Nodal point for admission processes.",
+        "members": [
+          { "name": "Prof. Prasannan A.R", "phone": "9868172367", "email": "nodaladmission@mac.du.ac.in" }
+        ],
+        "link": "https://mac.du.ac.in/admission-grievance-committee.aspx"
+      },
+      {
+        "name": "General Admission Grievance",
+        "purpose": "Handles grievances related to admissions.",
+        "members": [
+          { "name": "Prof. T. N. Ojha", "phone": "9868000996", "email": "admissiongrievance@mac.du.ac.in" }
+        ],
+        "link": "https://mac.du.ac.in/admission-grievance-committee.aspx"
+      },
+      {
+        "name": "SC/ST/OBC/EWS/PwBD Grievance",
+        "purpose": "Category and accessibility-related admission grievances.",
+        "members": [
+          { "name": "Prof. Rajat Kumar Sant", "role": "Convenor", "phone": "9868553043", "email": "rajatksant@rediffmail.com" },
+          { "name": "Dr. Neetu Bala", "role": "Member", "phone": "9899282782", "email": "neetucancerion@gmail.com" },
+          { "name": "Dr. Pramjeet Singh", "role": "Member", "phone": "9818887396", "email": "paramwes@yahoo.co.in" }
+        ],
+        "link": "https://mac.du.ac.in/admission-grievance-committee.aspx"
+      },
+      {
+        "name": "Admission Helpdesk (College)",
+        "purpose": "Official college admission helpdesk.",
+        "members": [
+          { "name": "Mr. Vikas Mittal", "phone": "9868204777", "email": "vikasmittal@mac.du.ac.in" },
+          { "name": "Mr. Yogeshwar Singh", "phone": "9811588054", "email": "yogeshwar.singh01@gmail.com" },
+          { "name": "Mr. Sachin Kumar", "phone": "7827328094", "email": "sachin.kumar029@gmail.com" }
+        ],
+        "link": "https://mac.du.ac.in/admission-grievance-committee.aspx"
+      },
+      {
+        "name": "Anti-Ragging Committee",
+        "purpose": "Curb ragging and keep the campus ragging-free (office order 24 Jun 2025).",
+        "members": [
+          { "name": "Prof. Mukesh Agarwal", "role": "Convener", "phone": "9899155480", "email": "mukeshkr_agarwal@yahoo.co.in" }
+        ],
+        "link": "https://mac.du.ac.in/anti-ragging-comittee.aspx",
+        "extra": "National Anti-Ragging Helpline: 1800-180-5522"
+      },
+      {
+        "name": "Internal Complaints Committee (ICC)",
+        "purpose": "Addresses complaints of sexual harassment.",
+        "members": [],
+        "link": "https://mac.du.ac.in/internal-complaint-committee.aspx",
+        "extra": "See the latest ICC notice on the college website - composition is updated periodically."
+      }
+    ],
+    "fallback": "Maintenance register at Counter No. 1. Unresolved issues: mac_su@mac.du.ac.in or gcr_mac@mac.du.ac.in. Full list: mac.du.ac.in/college-comittee.aspx"
+  },
+  "emergency": [
+    { "label": "Main college complaint ID (Principal)", "phone": "", "email": "principal@mac.du.ac.in" },
+    { "label": "Police / Emergency", "phone": "112" },
+    { "label": "Women's Helpline", "phone": "181" },
+    { "label": "Anti-Ragging National Helpline", "phone": "18001805522" },
+    { "label": "Student Union", "phone": "", "email": "mac_su@mac.du.ac.in" },
+    { "label": "College Grievance Mailbox", "phone": "", "email": "gcr_mac@mac.du.ac.in" }
+  ],
+  "firstWeek": [
+    "Join the Student Union WhatsApp group first - all admission and orientation updates land there",
+    "Carry originals + photocopies of admission documents and a few passport photos",
+    "Find the Student Union Help Desk on day 1 - they'll point you everywhere",
+    "Get your college ID card process started early",
+    "Locate canteen, photocopy shop, and stationery on campus",
+    "Save this guide offline (Add to Home Screen) before you lose signal in the metro",
+    "Attend orientation - electives and BA Prog structure get explained properly there",
+    "Follow @macsu_official and @yuvaan.mac so you don't miss fest and society updates"
+  ],
+  "faq": [
+    {
+      "q": "What's the e-rickshaw fare from metro?",
+      "a": "Around ₹20 from New Ashok Nagar / Noida Sec-15 / Trilokpuri. Push back if quoted higher."
+    },
+    {
+      "q": "Where do I get my ID card?",
+      "a": "Through the college admin process after admission - ask the Student Union Help Desk on day 1."
+    },
+    {
+      "q": "How do attendance rules work?",
+      "a": "DU has minimum attendance requirements for exams. Details come at orientation - take them seriously."
+    },
+    {
+      "q": "When do I choose SEC / VAC / GE?",
+      "a": "Lists come by college email. Orientation covers this. Don't choose based on FOMO alone."
+    },
+    {
+      "q": "Is there a boys' hostel?",
+      "a": "On-campus hostel is for girls only (limited). Boys look at PGs/flats nearby - see Accommodation."
+    },
+    {
+      "q": "Who do I call for admission confusion?",
+      "a": "Student Union Help Desk numbers on this guide, or the official college admission helpdesk under Help & Safety."
+    },
+    {
+      "q": "How do I join a society?",
+      "a": "Watch for auditions/orientations in the first weeks. Follow society Instagrams and @macsu_official."
+    },
+    {
+      "q": "When is Yuvaan?",
+      "a": "MAC's annual fest - dates land on @yuvaan.mac. Last edition was by the ABVP-led MACSU, with Karma and Shiva Chaudhary performing (first time two artists in MAC fest history)."
+    },
+    {
+      "q": "Fees look different from what I paid?",
+      "a": "Confirm at the fee counter. University share can change; figures here are from the official 2026-27 structure."
+    }
+  ],
+  "credits": {
+    "built": "Made with care by your seniors - Student Union 2025-26 × ABVP",
+    "note": "Successor to the Pocket Guide For Freshies 2024. Update names and numbers in data/guide.json each year."
+  }
+}
