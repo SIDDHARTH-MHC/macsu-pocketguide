@@ -582,70 +582,20 @@ function renderGallery(d) {
   const items = photos
     .map(
       (p, i) => `
-      <button type="button" class="gallery-item" data-gallery-index="${i}" aria-label="${esc(p.alt || `Campus photo ${i + 1}`)}">
+      <figure class="gallery-item">
         <img
           src="${esc(p.thumb || p.src)}"
-          alt="${esc(p.alt || "Campus photo")}"
+          alt="${esc(p.alt || `Campus photo ${i + 1}`)}"
           width="400"
           height="300"
           loading="lazy"
           decoding="async"
         />
-      </button>`
+      </figure>`
     )
     .join("");
 
-  return `
-    <header class="page-head">
-      <h1>Gallery</h1>
-      <p>A quick look at MAC campus life. Tap a photo to open it.</p>
-    </header>
-    <div class="gallery-grid">${items}</div>`;
-}
-
-function openGalleryLightbox(index) {
-  closeGalleryLightbox();
-  const photos = DATA?.gallery || [];
-  if (!photos.length) return;
-  let i = ((index % photos.length) + photos.length) % photos.length;
-  const overlay = document.createElement("div");
-  overlay.className = "gallery-overlay";
-  overlay.id = "gallery-lightbox";
-  overlay.innerHTML = `
-    <div class="gallery-lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
-      <button type="button" class="gallery-close" id="gallery-close" aria-label="Close">×</button>
-      <button type="button" class="gallery-nav gallery-prev" id="gallery-prev" aria-label="Previous">‹</button>
-      <img id="gallery-full" src="${esc(photos[i].src)}" alt="${esc(photos[i].alt || "Campus photo")}" />
-      <button type="button" class="gallery-nav gallery-next" id="gallery-next" aria-label="Next">›</button>
-      <p class="gallery-caption" id="gallery-caption">${esc(photos[i].alt || "")}</p>
-    </div>`;
-  document.body.appendChild(overlay);
-
-  const show = (n) => {
-    i = ((n % photos.length) + photos.length) % photos.length;
-    const img = $("#gallery-full");
-    const cap = $("#gallery-caption");
-    img.src = photos[i].src;
-    img.alt = photos[i].alt || "Campus photo";
-    if (cap) cap.textContent = photos[i].alt || "";
-  };
-
-  $("#gallery-close")?.addEventListener("click", closeGalleryLightbox);
-  $("#gallery-prev")?.addEventListener("click", (e) => {
-    e.stopPropagation();
-    show(i - 1);
-  });
-  $("#gallery-next")?.addEventListener("click", (e) => {
-    e.stopPropagation();
-    show(i + 1);
-  });
-  overlay.addEventListener("click", (e) => {
-    if (e.target === overlay) closeGalleryLightbox();
-  });
-}
-
-function closeGalleryLightbox() {
-  $("#gallery-lightbox")?.remove();
+  return `<div class="gallery-grid">${items}</div>`;
 }
 
 function renderMenu(d) {
@@ -778,12 +728,6 @@ function bindPageEvents(p) {
   $$(".tap-phone").forEach((btn) => {
     btn.addEventListener("click", () => openPhoneSheet(btn.dataset.phone, btn.dataset.name));
   });
-
-  if (p === "/gallery") {
-    $$(".gallery-item").forEach((btn) => {
-      btn.addEventListener("click", () => openGalleryLightbox(Number(btn.dataset.galleryIndex)));
-    });
-  }
 }
 
 function openPhoneSheet(phone, name) {
@@ -905,7 +849,7 @@ async function sharePage() {
 }
 
 async function init() {
-  const res = await fetch("data/guide.json?v=18", { cache: "no-store" });
+  const res = await fetch("data/guide.json?v=19", { cache: "no-store" });
   DATA = await res.json();
   INDEX = buildIndex(DATA);
 
