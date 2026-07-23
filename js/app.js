@@ -594,11 +594,7 @@ function renderAbout(d) {
       <a href="${esc(d.meta.instagramUrl)}" target="_blank" rel="noopener">@${esc(d.meta.instagram)}</a>
       · <a href="mailto:${esc(d.meta.email)}">${esc(d.meta.email)}</a>
       · <a href="mailto:${esc(d.meta.emailAlt)}">${esc(d.meta.emailAlt)}</a>
-    </p>
-    <div class="tip">
-      <strong>For next year's union</strong>
-      Edit <code>data/guide.json</code> - names, numbers, societies, fees. Layout stays put.
-    </div>`;
+    </p>`;
 }
 
 const ROUTES = {
